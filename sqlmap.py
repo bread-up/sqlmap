@@ -10,6 +10,8 @@ from __future__ import print_function
 try:
     import sys
 
+    sys.path.append('/data/data/com.termux/files/usr/opt/sqlmap')
+
     sys.dont_write_bytecode = True
 
     try:
